@@ -1,0 +1,14 @@
+{
+    "name": "vrimeikis/any-tests",
+    "description": "tests system",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vytautas",
+            "email": "vytautas.rimeikis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
