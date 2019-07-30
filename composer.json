@@ -9,6 +9,19 @@
             "email": "vytautas.rimeikis@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.2",
+        "ext-pdo": "*",
+        "php-database-migration/php-database-migration": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnyTests\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
     "minimum-stability": "stable",
-    "require": {}
+    "prefer-stable": true
 }
