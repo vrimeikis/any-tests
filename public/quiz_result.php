@@ -18,9 +18,8 @@ $postData = $_POST;
 
 use AnyTests\Helpers\ArrayHelper;
 use AnyTests\Models\QuestionChoice;
-use AnyTests\Models\QuizResult; ?>
-<pre>
-    <?php
+use AnyTests\Models\QuizResult;
+
 $filteredArray = ArrayHelper::getElementsIndexStart($postData, 'choice_');
 
 $choiceModel = new QuestionChoice();
@@ -58,8 +57,5 @@ $resultModel = new QuizResult();
 $resultModel->insert($saveData);
 
 ?>
-</pre>
-
-
 
 <p><?= $postData['name'] ?> <?= $postData['last_name'] ?>, your result is: <?= $resultPercent ?></p>
