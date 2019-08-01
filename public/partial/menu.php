@@ -19,4 +19,5 @@ $categories = $categoryModel->get();
         <?php
     }
     ?>
+    <li style="display: inline"><a href="/results.php">Results</a></li>
 </ul>
